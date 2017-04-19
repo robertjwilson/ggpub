@@ -1,7 +1,7 @@
----
-title: "theme_pub"
-output: html_document
----
 
-This is an outline of the core functionality of theme_pub.
 
+Install the development version of ggpub using [devtools](https://github.com/hadley/devtools):
+
+```
+library(devtools)
+install_github("robertwilson190/ggpub")
