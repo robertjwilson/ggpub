@@ -1,5 +1,5 @@
 Package: ggpub
-Title: ggpub
+Title: A theme for produce journal-ready figures in ggplot2 
 Version: 0.0.0.9000
 Authors: Robert Wilson
 Description: Functions to help create figures that meet academic journal guidelines
