@@ -24,7 +24,6 @@
 #' @export
 
 
-
 theme_pub <- function(base_size = 11,
 											base_family = "Arial",
 											plot_grid = "none",
