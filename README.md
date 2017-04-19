@@ -22,4 +22,4 @@ library(ggplot2)
 ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 	geom_point()
 ```
-![](README-example-1.png)
+![](read_me_1.png)
