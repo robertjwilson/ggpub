@@ -55,3 +55,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 	theme_pub(ticks_type = "inner")
 ```
 ![](read_me_4.png)
+
+
+
+
