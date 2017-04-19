@@ -47,3 +47,11 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 ```
 ![](read_me_3.png)
 
+If the journal requires inner axes ticks, this can easily be added using the "ticks_type" command:
+``` r
+library(ggpub)
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+	geom_point()+
+	theme_pub(ticks_type = "inner")
+```
+![](read_me_4.png)
