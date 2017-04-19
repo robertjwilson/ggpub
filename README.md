@@ -23,3 +23,13 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 	geom_point()
 ```
 ![](read_me_1.png)
+
+This kind of plot will be rejected by most journals. For a start many hold to the outdated idea that everything needs a white background. There are some options within ggplot2. For example, here is theme_bw:
+
+``` r
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+	geom_point()+
+	theme_bw()
+```
+![](read_me_2.png)
+
