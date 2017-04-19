@@ -24,12 +24,26 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 ```
 ![](read_me_1.png)
 
-This kind of plot will be rejected by most journals. For a start many hold to the outdated idea that everything needs a white background. There are some options within ggplot2. For example, here is theme_bw:
+This kind of plot will be rejected by most journals. For a start many hold to the outdated idea that everything needs a white background. There are some options within ggplot2. For example, here is theme_classic:
 
 ``` r
 ggplot(iris, aes(Sepal.Length, Sepal.Width))+
 	geom_point()+
-	theme_bw()
+	theme_classic()
 ```
 ![](read_me_2.png)
+
+In many cases this will provide a figure that is acceptable in a journal. But in others it will not. For example, there are journals who insist axis ticks point inwards, or insist that there should be a full border around the plot.
+
+So, here I will introduce theme_pub, a theme that makes it easy to satisfy both publishers and your own desire for an aethetically pleasing figure.
+
+The theme defaults to what I believe are the requirements of the most journals: a plain white background, no grid, outer axes ticks, and a rectangular border around the plot.
+
+``` r
+library(ggpub)
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+
+	geom_point()+
+	theme_pub()
+```
+![](read_me_3.png)
 
