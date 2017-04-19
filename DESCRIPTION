@@ -1,0 +1,14 @@
+Package: ggpub
+Title: ggpub
+Version: 0.0.0.9000
+Authors: Robert Wilson
+Description: Functions to help create figures that meet academic journal guidelines
+Depends:
+    R (>= 3.2)
+License: None
+LazyData: true
+Imports:
+    grid,
+    ggplot2,
+    scales
+RoxygenNote: 6.0.1
